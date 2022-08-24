@@ -1,0 +1,40 @@
+.all-header {
+  background-color: cadetblue;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.content-all p {
+  margin: 0;
+  padding: 0;
+}
+
+.name-input input, .surname-input input, .salary-input input {
+  border: 0.5px solid #7d7d7d;
+  outline: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+.name-input input::-webkit-outer-spin-button, .surname-input input::-webkit-outer-spin-button, .salary-input input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.name-input input::-webkit-inner-spin-button, .surname-input input::-webkit-inner-spin-button, .salary-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.addBtn {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: #ff6000;
+  padding: 14px 28px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.addBtn:hover {
+  background-color: #c54c00;
+}/*# sourceMappingURL=style.css.map */
